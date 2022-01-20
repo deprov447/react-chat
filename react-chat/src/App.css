@@ -3,7 +3,33 @@ body {
   padding: 0;
 }
 
-#root {
+#mainContainer,
+#mainRow {
   height: 100vh;
   width: 100vw;
+}
+
+#mainRow
+  > div.col
+  > div
+  > div.col-4
+  > div
+  > div:nth-child(2)
+  > div
+  > input[type="text"]:focus {
+  border: none;
+  outline: none;
+}
+
+/* Not working */
+#mainRow
+  > div.col
+  > div
+  > div.col-4
+  > div
+  > div.Column1_topDiv__ghVFj
+  > div
+  > div:hover {
+  cursor: pointer;
+  background: none;
 }

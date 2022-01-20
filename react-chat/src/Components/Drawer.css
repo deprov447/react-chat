@@ -1,14 +1,14 @@
-#root > div > div.pro-sidebar-inner > div {
+#root > div > div > div > div > div.pro-sidebar-inner > div {
   background: #303c6c;
   border-radius: 0px 20px 20px 0px;
 }
 
-#root > div > div.pro-sidebar-inner {
+#root > div > div > div > div > div.pro-sidebar-inner {
   background: none;
   width: 150px;
 }
 
-#root > div > div.pro-sidebar-inner > div > div {
+#root > div > div > div > div > div.pro-sidebar-inner > div > div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@
   border: none;
 }
 
-#root > div > div.pro-sidebar-inner > div > nav > ul > li {
+#root > div > div > div > div > div.pro-sidebar-inner > div > nav > ul > li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +27,7 @@
   color: white;
 }
 
-#root > div > div.pro-sidebar-inner > div > nav > ul > div {
+#root > div > div > div > div > div.pro-sidebar-inner > div > nav > ul > div {
   position: absolute;
   bottom: 35px;
   left: 20px;
