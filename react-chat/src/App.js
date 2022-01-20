@@ -6,6 +6,7 @@ import { Col, Container } from "react-bootstrap";
 
 import style from "./style.module.css";
 import Column1 from "./Components/Column1/Column1";
+import Column2 from "./Components/Column2/Column2";
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
               <Col xs={4}>
                 <Column1 />
               </Col>
-              <Col xs={8}>hello</Col>
+              <Col xs={8}>
+                <Column2 />
+              </Col>
             </Row>
           </Col>
         </Row>

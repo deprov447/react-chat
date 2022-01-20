@@ -27,10 +27,10 @@ const Drawer = () => {
         <MenuItem>
           <AiOutlineSetting />
         </MenuItem>
-        <SidebarFooter>
-          <BiExit />
-        </SidebarFooter>
       </Menu>
+      <SidebarFooter>
+        <BiExit />
+      </SidebarFooter>
     </ProSidebar>
   );
 };

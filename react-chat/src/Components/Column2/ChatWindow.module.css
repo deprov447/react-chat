@@ -1,0 +1,38 @@
+.ChatWindow {
+  height: calc(67vh + 100px);
+  background-color: orangered;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+}
+
+.topBar {
+  height: 80px;
+  background: #303c6c;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: -0.02em;
+  color: white;
+}
+
+.topBar .profileImg {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  border-radius: 100%;
+}
+
+.topBar h5 {
+  width: 80%;
+}

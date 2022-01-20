@@ -5,7 +5,8 @@
 
 #root > div > div > div > div > div.pro-sidebar-inner {
   background: none;
-  width: 150px;
+  max-width: 150px;
+  width: 10vw;
 }
 
 #root > div > div > div > div > div.pro-sidebar-inner > div > div {
@@ -39,4 +40,8 @@
   padding: 45px 45px 50px 30px;
   font-size: 2rem;
   color: white;
+}
+
+#root > div > div > div > div > div.pro-sidebar-inner > div > nav {
+  height: 70vh;
 }
