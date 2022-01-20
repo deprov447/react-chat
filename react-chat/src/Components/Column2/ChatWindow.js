@@ -9,9 +9,7 @@ const ChatWindow = () => {
   return (
     <div className={styles.ChatWindow}>
       <div className={styles.topBar}>
-        {/* <div className={styles.profileImg}></div> */}
         <Avatar src={avatarIco} name={"Zoe"} status="available" size="medium" />
-
         <h5>Esther Howard</h5>
         <BsThreeDotsVertical />
         <IoMdClose />
