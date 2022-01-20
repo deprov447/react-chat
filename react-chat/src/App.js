@@ -13,7 +13,7 @@ function App() {
     <>
       <Container fluid id="mainContainer">
         <Row id="mainRow">
-          <Col xs={2} style={{ padding: 0, backgroundColor: "red" }}>
+          <Col lg={2} xs={1} style={{ padding: 0, backgroundColor: "red" }}>
             <Drawer />
           </Col>
           <Col>
@@ -21,7 +21,7 @@ function App() {
               <Col xs={4}>
                 <Column1 />
               </Col>
-              <Col xs={8}>
+              <Col lg={8} xs={12}>
                 <Column2 />
               </Col>
             </Row>

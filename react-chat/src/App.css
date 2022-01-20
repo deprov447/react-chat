@@ -45,3 +45,20 @@ body {
   cursor: pointer;
   background-color: #f4f4f4;
 }
+
+@media (max-width: 1000px) {
+  #mainRow > div.col > div > div.col-4 {
+    display: none;
+  }
+  #mainRow > div.col-lg-2.col-1 {
+    display: none;
+  }
+  #mainRow
+    > div.col
+    > div
+    > div.col-lg-8.col-12
+    > div
+    > div.Column2_topBar__w\+2ds {
+    display: none;
+  }
+}
