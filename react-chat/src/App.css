@@ -50,7 +50,7 @@ body {
   #mainRow > div.col > div > div.col-4 {
     display: none;
   }
-  #mainRow > div.col-lg-2.col-1 {
+  #mainRow > div.col-lg-1.col-1 {
     display: none;
   }
   #mainRow
@@ -61,4 +61,112 @@ body {
     > div.Column2_topBar__w\+2ds {
     display: none;
   }
+}
+
+.cs-message--incoming .cs-message__content {
+  background: #f4f4f4;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  /* line-height: 16px; */
+  /* or 16px */
+
+  letter-spacing: -0.02em;
+
+  color: #3c3c3c;
+}
+
+.cs-message--outgoing .cs-message__content {
+  background: #b4dfe580;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  /* line-height: 16px; */
+  /* or 16px */
+
+  letter-spacing: -0.02em;
+
+  color: #3c3c3c;
+}
+.cs-main-container {
+  border: none;
+}
+section.cs-message--outgoing,
+section.cs-message--incoming {
+  padding-bottom: 20px;
+}
+.cs-message-input__content-editor-wrapper {
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 60px;
+}
+.cs-message-input__content-editor {
+  background: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+}
+.cs-message-input__tools .cs-button--send {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background: #c4c4c4;
+  width: 60px;
+  color: #3c3c3c;
+  border-radius: 100%;
+  height: 60px;
+}
+#mainRow
+  > div.col
+  > div
+  > div.col-lg-8.col-12
+  > div
+  > div.ChatWindow_ChatWindow__n7i1m
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div.cs-message-input {
+  border-top: 0;
+}
+#mainRow
+  > div.col
+  > div
+  > div.col-lg-8.col-12
+  > div
+  > div.ChatWindow_ChatWindow__n7i1m
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div.cs-message-input
+  > div.cs-message-input__tools {
+  margin-left: 10px;
+}
+#mainRow
+  > div.col
+  > div
+  > div.col-lg-8.col-12
+  > div
+  > div.ChatWindow_ChatWindow__n7i1m
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div.cs-message-input
+  > div.cs-message-input__content-editor-wrapper
+  > div
+  > div.cs-message-input__content-editor {
+  display: flex;
+  align-items: center;
 }

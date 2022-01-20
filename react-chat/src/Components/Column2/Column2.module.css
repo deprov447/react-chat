@@ -1,14 +1,13 @@
 .Column2 {
-  background-color: blueviolet;
   height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 45px 20px;
+  padding-right: 45px;
   /* justify-content: space-evenly; */
 }
 
 .topBar {
-  background-color: antiquewhite;
   display: flex;
   justify-content: flex-end;
   align-items: center;

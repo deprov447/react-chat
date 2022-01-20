@@ -1,19 +1,18 @@
 import Row from "react-bootstrap/Row";
 
 import Drawer from "./Components/Drawer";
-import "./App.css";
 import { Col, Container } from "react-bootstrap";
 
-import style from "./style.module.css";
 import Column1 from "./Components/Column1/Column1";
 import Column2 from "./Components/Column2/Column2";
+import "./App.css";
 
 function App() {
   return (
     <>
       <Container fluid id="mainContainer">
         <Row id="mainRow">
-          <Col lg={2} xs={1} style={{ padding: 0, backgroundColor: "red" }}>
+          <Col lg={1} xs={1} style={{ padding: 0 }}>
             <Drawer />
           </Col>
           <Col>
