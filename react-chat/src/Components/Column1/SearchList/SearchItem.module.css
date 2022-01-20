@@ -1,0 +1,87 @@
+.SearchItem {
+  display: flex;
+  height: 76px;
+  border-bottom: 1px solid #e6e6e6;
+  align-items: center;
+  justify-content: space-between;
+  transition-duration: 250ms;
+}
+.SearchItem h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
+  letter-spacing: -0.02em;
+
+  color: #3c3c3c;
+}
+.msgSummary {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+
+  letter-spacing: -0.02em;
+
+  color: #ababab;
+  margin-top: 10px;
+}
+.unreadMsg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  left: 540px;
+  top: 384px;
+
+  background: #fa976c;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+  border-radius: 100%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.timeElapsed {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 100%;
+  /* identical to box height, or 12px */
+
+  letter-spacing: -0.02em;
+
+  color: #ababab;
+}
+.div1 {
+  background: url("https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/cxqxam3mpqmqam228i2w");
+  background-size: cover;
+  margin: 0px 20px;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  /* width: 20%; */
+}
+.div12Parent {
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+  width: 80%;
+}
+.div3 {
+  margin: 20px;
+}

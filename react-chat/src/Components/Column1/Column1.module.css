@@ -5,10 +5,12 @@
   padding: 45px 0;
   margin: 0;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .topDiv {
-  margin-bottom: 45px;
   display: flex;
   align-items: center;
   justify-content: space-between;

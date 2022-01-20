@@ -33,3 +33,15 @@ body {
   cursor: pointer;
   background: none;
 }
+
+#mainRow
+  > div.col
+  > div
+  > div.col-4
+  > div
+  > div:nth-child(3)
+  > div
+  > div:hover {
+  cursor: pointer;
+  background-color: #f4f4f4;
+}

@@ -2,6 +2,7 @@ import { GoSettings } from "react-icons/go";
 import SearchBox from "./SearchBox";
 
 import styles from "./Column1.module.css";
+import SearchList from "./SearchList/SearchList";
 
 const Column1 = () => {
   return (
@@ -18,7 +19,9 @@ const Column1 = () => {
       <div>
         <SearchBox />
       </div>
-      <div></div>
+      <div>
+        <SearchList />
+      </div>
     </div>
   );
 };
